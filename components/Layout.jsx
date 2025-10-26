@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
           content="bagagiste, agent de piste, aeroport, handling, ground support, logistics, sabri belafi"
         />
         <meta name="robots" content="index, follow" key="robots" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Open Graph */}
         <meta property="og:locale" content="fr_FR" key="og:locale" />

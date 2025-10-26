@@ -49,3 +49,15 @@
     @apply w-full h-[180px] p-6 rounded-lg resize-none;
   }
 }
+
+/* Mobile / small screens: allow natural scrolling (override desktop "overflow-hidden") */
+@media (max-width: 1024px) {
+  body {
+    @apply overflow-auto;
+  }
+
+  .page {
+    /* let the page grow taller than the viewport and be scrollable */
+    @apply h-auto min-h-screen overflow-auto;
+  }
+}
