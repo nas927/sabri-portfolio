@@ -4,6 +4,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
+import CustomCursor from "./CustomCursor";
 
 // setup font
 const sora = Sora({
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
     <main
       className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
     >
+      <CustomCursor />
       {/* metadata */}
       <Head>
         <title>Sabri Belafi | Portfolio</title>

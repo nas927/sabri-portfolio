@@ -18,7 +18,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 pt-6"
           >
             SABRI BELAFI <br />
             <span className="text-accent">Agent de piste/bagagiste</span>
